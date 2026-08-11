@@ -21,7 +21,8 @@ class BrandMatcherAgent(BaseAgent):
             agent_name="BrandMatcherAgent",
             system_instruction=system_instruction,
             temperature=0.1,
-            max_output_tokens=1024,
+            max_output_tokens=2048,
+            thinking_level="minimal",
             demo_mode=demo_mode
         )
 
