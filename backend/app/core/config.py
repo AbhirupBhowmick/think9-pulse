@@ -9,6 +9,21 @@ from pydantic import field_validator
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 backend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 default_db_path = os.path.join(project_root, "think9_pulse.db")
+backend_seed_db_path = os.path.join(backend_dir, "think9_pulse.db")
+
+# Detect Vercel serverless environment or read-only filesystem
+is_vercel = os.getenv("VERCEL") == "1" or os.getenv("VERCEL_ENV") is not None or not os.access(project_root, os.W_OK)
+
+if is_vercel:
+    tmp_db_path = "/tmp/think9_pulse.db"
+    # Locate bundled seed database (check project root first, then backend dir)
+    seed_db = default_db_path if os.path.exists(default_db_path) else (backend_seed_db_path if os.path.exists(backend_seed_db_path) else None)
+    if seed_db and not os.path.exists(tmp_db_path):
+        import shutil
+        shutil.copy2(seed_db, tmp_db_path)
+    runtime_db_path = tmp_db_path if os.path.exists(tmp_db_path) else default_db_path
+else:
+    runtime_db_path = default_db_path
 
 # Explicitly load .env from backend/.env or root .env
 backend_env_path = os.path.join(backend_dir, ".env")
@@ -26,7 +41,7 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     
     # Database
-    DATABASE_URL: str = f"sqlite:///{default_db_path}"
+    DATABASE_URL: str = f"sqlite:///{runtime_db_path}"
     
     # AI Service Configuration
     GEMINI_API_KEY: str = ""
