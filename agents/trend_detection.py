@@ -20,7 +20,8 @@ class TrendDetectionAgent(BaseAgent):
             agent_name="TrendDetectionAgent",
             system_instruction=system_instruction,
             temperature=0.2,
-            max_output_tokens=1024,
+            max_output_tokens=2048,
+            thinking_level="minimal",
             demo_mode=demo_mode
         )
 
