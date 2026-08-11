@@ -1,0 +1,98 @@
+[
+  {
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/nutrition/comments/hp_bites_demand",
+    "title": "Tired of sweet protein shakes in the morning - need savory 25g+ quick options",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Every high protein breakfast idea online is sweet - whey shakes, protein oats, sweet pancakes. I get nauseous drinking 30g sweet vanilla powder at 7am. Why is nobody making a quick, microwaveable 25g savory protein square with real eggs and herbs that doesn't taste like rubber?",
+    "signal_type": "consumer_forum_post",
+    "sector": "Food & Beverage",
+    "sentiment": -0.6,
+    "signal_strength": 0.92,
+    "geography": "US",
+    "metadata": {
+      "forum": "r/nutrition",
+      "upvotes": 1420,
+      "comments_count": 385,
+      "flagship_scenario": "High-Protein Breakfast"
+    }
+  },
+  {
+    "source": "Amazon Reviews",
+    "source_url": "https://amazon.com/product-reviews/B08XMPL123",
+    "title": "Decent protein but rubbery texture and full of artificial gums",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Verified Purchase. Bought this ready-made egg bites 4-pack. Concept is great for 20g protein, but it takes 8 mins in oven or micro turns it into rubber. Also full of guar gum and sodium benzoate. We need clean-label savory breakfast bites!",
+    "signal_type": "product_review",
+    "sector": "Food & Beverage",
+    "sentiment": -0.4,
+    "signal_strength": 0.85,
+    "geography": "US",
+    "metadata": {
+      "star_rating": 2,
+      "competitor_brand": "MorningFuel Bites",
+      "flagship_scenario": "High-Protein Breakfast"
+    }
+  },
+  {
+    "source": "Google Search Trends",
+    "source_url": "https://trends.google.com/trends/explore?q=savory+high+protein+breakfast",
+    "title": "Search Spike: savory quick high protein breakfast",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Search volume for 'savory quick high protein breakfast' surged +145% YoY in Q2. Top related queries: 'savory meal prep protein', '25g protein non sweet breakfast', 'quick egg bites no carbs'.",
+    "signal_type": "search_trend_spike",
+    "sector": "Food & Beverage",
+    "sentiment": 0.8,
+    "signal_strength": 0.95,
+    "geography": "US/Global",
+    "metadata": {
+      "yoy_growth_pct": 145,
+      "search_index": 92,
+      "flagship_scenario": "High-Protein Breakfast"
+    }
+  },
+  {
+    "source": "TikTok Analytics",
+    "source_url": "https://tiktok.com/tag/savoryproteinbreakfast",
+    "title": "#SavoryProteinBreakfast reaching 48M views",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Short-form video creators posting 60-second prep savory cottage cheese egg bakes and herb protein egg bites. High engagement rate of 8.4% among 22-38 demographic.",
+    "signal_type": "social_trend",
+    "sector": "Food & Beverage",
+    "sentiment": 0.9,
+    "signal_strength": 0.88,
+    "geography": "US",
+    "metadata": {
+      "total_views": "48M",
+      "engagement_rate": "8.4%",
+      "flagship_scenario": "High-Protein Breakfast"
+    }
+  },
+  {
+    "source": "Retail Buyer Feedback",
+    "source_url": "https://internal.think9.ai/retail/report_q2",
+    "title": "Grocery chain buyer notes gap in refrigerated savory protein snacks",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Category manager at Whole Foods & Target reports 30% surge in grabs for fresh refrigerated grab-and-go morning protein items. Existing brands are heavily skewed to sweet yogurt and bars.",
+    "signal_type": "retail_feedback",
+    "sector": "Food & Beverage",
+    "sentiment": 0.5,
+    "signal_strength": 0.82,
+    "geography": "US",
+    "metadata": {
+      "retailer": "Target/Whole Foods",
+      "category_growth": "+30%",
+      "flagship_scenario": "High-Protein Breakfast"
+    }
+  },
+  {
+    "source": "Reddit",
+    "source_url": "https://reddit.com/r/SkincareAddiction/comments/barrier_repair_ferment",
+    "title": "Bio-fermented barrier repair creams are changing my sensitive skin",
+    "content": "SIMULATED DATA [Think9 Pulse Demo]: Switched from harsh exfoliants to micro-fermented postbiotic barrier creams. Reduced redness in 3 days. Wish more D2C skincare brands used postbiotics instead of synthetic fillers.",
+    "signal_type": "consumer_forum_post",
+    "sector": "Skincare & Personal Care",
+    "sentiment": 0.85,
+    "signal_strength": 0.78,
+    "geography": "US",
+    "metadata": {
+      "forum": "r/SkincareAddiction",
+      "flagship_scenario": "Bio-Fermented Skincare"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NutriPulse",
+    "sector": "Food & Beverage",
+    "description": "Functional nutrition and high-performance clean foods designed for busy urban professionals.",
+    "target_consumer": "Fitness enthusiasts, active professionals, macro-conscious consumers aged 22-45.",
+    "positioning": "High-protein, zero artificial additive, quick-prep functional foods.",
+    "product_categories": ["Protein Snacks", "Breakfast Formats", "Functional Beverages", "Meal Replacements"]
+  },
+  {
+    "name": "GlowBotanica",
+    "sector": "Skincare & Personal Care",
+    "description": "Clean, bio-fermented skincare formulated with active botanical extracts and gentle science.",
+    "target_consumer": "Skincare conscious consumers seeking barrier-repair and clean beauty formulations.",
+    "positioning": "Biocompatible botanical skincare backed by clinical efficacy.",
+    "product_categories": ["Serums", "Barrier Creams", "Cleansers", "Sun Care"]
+  },
+  {
+    "name": "AuraFlex",
+    "sector": "Athleisure & Apparel",
+    "description": "Performance athleisure apparel engineered with temperature-regulating micro-fibers.",
+    "target_consumer": "Urban commuters, gym-goers, and wellness lifestyle enthusiasts aged 20-40.",
+    "positioning": "Seamless comfort from workout to work.",
+    "product_categories": ["Activewear", "Recovery Wear", "Base Layers", "Accessories"]
+  },
+  {
+    "name": "PureHabit",
+    "sector": "Home Care & Wellness",
+    "description": "Eco-conscious home fragrance, air hygiene, and non-toxic surface wellness products.",
+    "target_consumer": "Eco-minded homeowners prioritizing non-toxic indoor environments.",
+    "positioning": "Elevated sensory home care with zero harsh chemicals.",
+    "product_categories": ["Air Care", "Surface Cleaners", "Linen Sprays", "Diffusers"]
+  },
+  {
+    "name": "VitalHydrate",
+    "sector": "Food & Beverage",
+    "description": "Electrolyte and hydration technology featuring zero-sugar micro-drink tabs and sachets.",
+    "target_consumer": "Athletes, travelers, and hydration-focused daily wellness consumers.",
+    "positioning": "Rapid cellular hydration with clean natural fruit extracts.",
+    "product_categories": ["Electrolyte Powders", "Hydration Tabs", "Immunity Boosters"]
+  }
+]
